@@ -1,0 +1,32 @@
+footer{
+    margin-top: 0.8em;
+   
+    display: flex;
+    justify-content: flex-end;
+  
+  }
+  .socialcontainer{
+    display: flex;
+    justify-content: center;
+    margin: 0 8rem;
+  
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+    
+    margin-left:  0.5rem;    
+
+    /* margin-left: 4em; 
+    padding-right: 2em; */
+  }
+  i{
+    margin: auto;
+  }

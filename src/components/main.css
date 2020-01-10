@@ -1,0 +1,46 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.content{
+    padding: 8em;
+    max-width: 50%;
+  }
+  h1, .description {
+    text-align: left;
+    color: white;
+  }
+  .bgpic{
+    margin-top: 2em;
+    object-fit: cover;
+    width: 100%;
+    margin-left: 7.8em;
+  }
+  main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  
+  }
+  h1, .description {
+    text-align: left;
+    
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  
+  }
+  .description{
+    line-height: 1.8;
+  }
+  .btn-register{
+    border-radius: 30rem;
+    color:  hsl(257, 40%, 49%);
+    width: 60%;
+    background-color: white;
+    height: 20%;
+    display: block;
+  }
+  .btn-register:hover, .btn-register:focus {
+    color: white;
+    background: salmon;
+  }

@@ -1,0 +1,16 @@
+
+.container{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: fixed;
+  background: hsl(257, 40%, 49%);
+  background-image: url('../images/bg-desktop.svg');
+  padding-top: 2em;
+  padding-bottom: 5em;
+  padding-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+
+}
